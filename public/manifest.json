@@ -1,0 +1,25 @@
+{
+  "id": "/",
+  "name": "Wear More. Waste Less.",
+  "short_name": "Wear More",
+  "description": "Slow-fashion wardrobe tracker rewarding wearing clothes longer with cost per wear, streaks, badges, and pass-it-on circulation.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#2F6B4F",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

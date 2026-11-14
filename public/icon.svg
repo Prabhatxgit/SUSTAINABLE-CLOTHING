@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#2F6B4F" />
+  <!-- Slow fashion woven loop & flame leaf -->
+  <g transform="translate(64, 64) scale(0.75)" fill="none" stroke="#FAF7F2" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Hanger silhouette -->
+    <path d="M 256 120 C 256 80, 290 80, 290 55 C 290 35, 275 25, 256 25 C 235 25, 222 38, 222 55" />
+    <path d="M 256 120 L 70 240 C 50 252, 60 280, 85 280 L 427 280 C 452 280, 462 252, 442 240 Z" fill="#24543E" />
+    <!-- Warm accent flame of continuous wear -->
+    <path d="M 256 310 C 210 370, 200 420, 256 460 C 312 420, 302 370, 256 310 Z" fill="#D9774B" stroke="#D9774B" stroke-width="12" />
+    <path d="M 256 370 C 235 400, 230 425, 256 445 C 282 425, 277 400, 256 370 Z" fill="#FAF7F2" stroke="#FAF7F2" stroke-width="4" />
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Wear More. Waste Less.",
+  "description": "Slow-fashion wardrobe tracker rewarding wearing clothes longer with cost per wear, streaks, badges, and pass-it-on circulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

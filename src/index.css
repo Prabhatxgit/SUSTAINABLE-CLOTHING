@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-primary: var(--primary);
+  --color-primary-ink: var(--primary-ink);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-border: var(--border);
+
+  --radius-card: 20px;
+  --radius-btn: 14px;
+  --radius-badge: 999px;
+  --radius-img: 16px;
+}
+
+:root {
+  --bg: #FAF7F2;
+  --surface: #FFFFFF;
+  --surface-2: #EAF3EE;
+  --ink: #1F2A24;
+  --ink-muted: #5B6B62;
+  --primary: #2F6B4F;
+  --primary-ink: #FFFFFF;
+  --accent: #D9774B;
+  --success: #3E8E5E;
+  --danger: #C0463C;
+  --border: #DCE5DF;
+  --card-shadow: 0 1px 2px rgba(31, 42, 36, 0.06);
+}
+
+.dark {
+  --bg: #121614;
+  --surface: #1B211E;
+  --surface-2: #232B27;
+  --ink: #F1EFE9;
+  --ink-muted: #9DAAA2;
+  --primary: #5FAE88;
+  --primary-ink: #0E1511;
+  --accent: #E8946B;
+  --success: #5FAE88;
+  --danger: #E26D63;
+  --border: #2C3631;
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Custom utility styles */
+.card-base {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: var(--card-shadow);
+}
+
+.btn-touch {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Safe areas */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}
